@@ -212,6 +212,10 @@ color: white;
 	padding: 15px;
 }
 
+
+/******************************************* MOBILE ********************************************/
+
+
 @media (max-width: 999px){
 	body{
 		overflow-x: hidden ;
