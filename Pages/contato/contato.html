@@ -2,89 +2,128 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/style.css">
-  <title>System-C</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>System-C</title>
 </head>
 
 <body>
 
-  <header>
-    <nav>
-        <div class="logo">
-            <a href="/index.html">SYSTEM-CLEAR</a>
-            <img src="./images/github.svg" alt="github">
-            <a class="git" href="https://github.com/aprigio311">/AprigioDev</a>
-        </div>
-
-      <div class="menu-mobile">
-        <div class="linha1"></div>
-        <div class="linha2"></div>
-        <div class="linha3"></div>
-      </div>
-
-      <ul class="nav-list">
-        <li><a href="/index.html">Inicio</a></li>
-        <li><a href="/Pages/contato/contato.html">Contato</a></li>
-        <li><a href="#Sobre_nos">Sobre nós</a></li>
-        <li><a href="#galeria">Galeria</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <main>
-
-    <section class="form-contato">
-
-        <form class="dsmovie-form">
-            <div class="dsmovie-form-group">
-                <label for="email">Informe seu e-mail</label>
-                <input class="form-control" type="email" id="email">
-                
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="/index.html">SYSTEM-CLEAR</a>
+                <img src="/images/github.svg" alt="github">
+                <a class="git" href="https://github.com/aprigio311">/AprigioDev</a>
             </div>
-            <div class="dsmovie-form-group">
-                <label for="score">Informe sua avaliação</label>
-                <select class="form-control" name="score" id="score">
-                    <option value="1">1</option>
-                    <option value="2">2</option>
-                    <option value="3">3</option>
-                    <option value="4">4</option>
-                    <option value="5">5</option>
-                </select>
+
+            <div class="menu-mobile">
+                <div class="linha1"></div>
+                <div class="linha2"></div>
+                <div class="linha3"></div>
             </div>
-            <div class="dsmovie-form-btn-container">
-                <button class="dsmovie-btn" type="submit">Salvar</button>
-                <a class= "dsmovie-btn" href="index.html">cancelar</a>
+
+            <ul class="nav-list">
+                <li><a href="/index.html">Inicio</a></li>
+                <li><a href="/Pages/contato/contato.html">Contato</a></li>
+                <li><a href="#Sobre_nos">Sobre nós</a></li>
+                <li><a href="#galeria">Galeria</a></li>
+            </ul>
+        </nav>
+    </header>
+
+        <section class="system-form">
+
+                <div class="form-contato">
+                    <h1>Formulário contato</h1>
+
+                <div class="form-cadastro">
+                        <h3>Cadastre-se</h3>
+                        <form>
+
+                            <div class="form-group">
+                                <label for="nome">Nome</label>
+                                <input type="text" class="form-control" id="nome">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">E-mail</label>
+                                <input type="email" class="form-control" id="email">
+                            </div>
+
+                            <div class="form-group">
+                                <label for="senha">Senha</label>
+                                <input type="email" class="form-control" id="senha">
+                            </div>
+
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox"> Aceito os termos do serviço.
+                                </label>
+                            </div>
+
+                            <div class="radio">
+                                <label>
+                                    <input type="radio" name="opcoes"> PHP
+                                </label>
+
+                                <label>
+                                    <input type="radio" name="opcoes"> Java
+                                </label>
+
+                            </div>
+
+                            <button type="submit" class="btn btn-default">Cadastrar</button>
+
+                        </form>
+
+                    </div>
+
+                    <div class="form-login">
+                        <h3>Logar</h3>
+
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="email" placeholder="Digite seu e-mail">
+                        </div>
+
+                        <div class="form-group">
+                            <input type="password" class="form-control" id="senha" placeholder="Digite sua senha">
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Logar</button>
+
+                    </div>
+
             </div>
-        </form>
 
-    </section>
+        </section>
 
-  </main>
+    <footer>
+        <div class="rodape">
+            <div class="direitos">
+                <span>© Todos os direitos reservados @AprigioFun</span>
+            </div>
 
-  <footer>
-    <div class="rodape">
-        <div class="direitos">
-          <span>© Todos os direitos reservados @AprigioFun</span>
+            <div class="social-media">
+                <a href="https://instagram.com/unikservicelimpeza?utm_medium=copy_link"><img
+                        src="https://seeklogo.com/images/I/instagram-new-2016-logo-D9D42A0AD4-seeklogo.com.png"
+                        alt="Instagram">
+                </a>
+                <a href="https://www.facebook.com/"><img
+                        src="https://seeklogo.com/images/F/facebook-icon-logo-03865A9BA2-seeklogo.com.png"
+                        alt="facebook">
+                </a>
+                <a href="https://api.whatsapp.com/send?phone=5521969995886"> <img
+                        src="https://seeklogo.com/images/W/whatsapp-icon-logo-BDC0A8063B-seeklogo.com.png"
+                        alt="whatsapp">
+                </a>
+            </div>
         </div>
+    </footer>
 
-        <div class="social-media">
-          <a href="https://instagram.com/unikservicelimpeza?utm_medium=copy_link"><img
-             src="https://seeklogo.com/images/I/instagram-new-2016-logo-D9D42A0AD4-seeklogo.com.png" alt="Instagram">
-          </a>
-          <a href="https://www.facebook.com/"><img
-              src="https://seeklogo.com/images/F/facebook-icon-logo-03865A9BA2-seeklogo.com.png" alt="facebook">
-          </a>
-          <a href="https://api.whatsapp.com/send?phone=5521969995886"> <img
-              src="https://seeklogo.com/images/W/whatsapp-icon-logo-BDC0A8063B-seeklogo.com.png" alt="whatsapp">
-          </a>
-        </div>
-    </div>
-  </footer>
-
-  <script src="/script.js"></script>
+    <script src="/script.js"></script>
 </body>
 
 </html>
