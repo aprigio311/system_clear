@@ -342,7 +342,7 @@ color: white;
 		align-items: center;
 		justify-content: space-around;
 		margin: 20px 0;
-		width: 130px;
+		width: 120px;
 		height: 220px;
 	}
 	
@@ -353,7 +353,7 @@ color: white;
 	
 	.servicos img{
 		border-radius: 50%;
-		width: 130px;
+		width: 115px;
 		height: 95px;
 	}
 
@@ -363,7 +363,6 @@ color: white;
 		justify-content: center;
 		align-items: center;
 		width: 100%;
-		height: 100%;
 	}
 	.system-info2{
 		display: flex;
@@ -374,11 +373,11 @@ color: white;
 	.system-text{
 		display: flex;
 		flex-direction: column;
-		width: 120px;
+		width: 100px;
 		height: 450px;	
 	}
 	.system-text p{
-		font-size: 16px;
+		font-size: 12px;
 		font-weight: 400;
 		font-family: 'Josefin Sans', sans-serif;
 		text-align: center;
@@ -436,8 +435,8 @@ color: white;
 	.clientes img{
 		border: white 2px solid;
 		border-radius: 10px;
-		max-width: 450px;
-		max-height: 400px;
+		max-width: 350px;
+		max-height: 300px;
 	}
 	
 	.rodape{
@@ -446,6 +445,7 @@ color: white;
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
+		width: 100%;
 	}
 	
 	.direitos{
