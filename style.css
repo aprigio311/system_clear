@@ -99,8 +99,21 @@ main{
 	flex-direction: column;
 	align-items: center;
 	color: white;
+	background-image: url(https://cdn.pixabay.com/photo/2016/06/02/02/33/triangles-1430105__480.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+
 }
 
+.info-cliente2 span{
+	padding-top: 15px;
+	text-align: center;
+	font-size: 35px;
+	font-weight: 900;
+	font-family: 'Josefin Sans', sans-serif;
+	color: white;
+}
 .info-cliente2{
 	display: flex;
 	flex-direction: column;
@@ -116,7 +129,7 @@ main{
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
-	justify-content: space-between;
+	justify-content: space-around;
 	align-items: center;
 }
 
@@ -124,10 +137,14 @@ main{
 	display: flex;
 	flex-direction: column;
 	border-radius: 20px;
-	background-color: rgb(75, 162, 238);
 	align-items: center;
 	justify-content: center;
 	margin: 20px 0;
+}
+
+.card-servicos h2{
+	font-weight: 900;
+	font-family: 'Courier New', Courier, monospace
 }
 
 .servicos img{
@@ -166,6 +183,52 @@ section div.info-text2 h1{
 	text-align: center;
 	
 }
+
+.system-info{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+}
+.system-info2{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+}
+.system-text{
+	display: flex;
+	flex-direction: column;
+	width: 200px;
+	height: 450px;
+
+	padding: 0 20px;
+}
+.system-text p{
+	font-size: 20px;
+	font-weight: 400;
+	font-family: 'Josefin Sans', sans-serif;
+	text-align: center;
+	color: rgb(212, 209, 209);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.system-help img{
+	border-radius: 50%;
+}
+
+.system-info span{
+	padding-top: 15px;
+	text-align: center;
+	font-size: 35px;
+	font-weight: 900;
+	font-family: 'Josefin Sans', sans-serif;
+	color: white;
+}
+
 .clientes h1{
 	margin: 20px;
 	font-family: 'Josefin Sans', sans-serif;
@@ -275,7 +338,7 @@ color: white;
 		display: flex;
 		flex-direction: column;
 		border-radius: 20px;
-		background-color: rgb(75, 162, 238);
+		background-color: rgb(39, 39, 39);
 		align-items: center;
 		justify-content: space-around;
 		margin: 20px 0;
@@ -294,6 +357,53 @@ color: white;
 		height: 95px;
 	}
 
+	.system-info{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		width: 100%;
+		height: 100%;
+	}
+	.system-info2{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: row;
+	}
+	.system-text{
+		display: flex;
+		flex-direction: column;
+		width: 120px;
+		height: 450px;	
+	}
+	.system-text p{
+		font-size: 16px;
+		font-weight: 400;
+		font-family: 'Josefin Sans', sans-serif;
+		text-align: center;
+		color: rgb(212, 209, 209);
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	}
+	.system-help img{
+		width: 200px;
+		height: 150px;
+		border-radius: 50%;
+	}
+	
+	.system-info span{
+		margin-top: 20px;
+		padding-top: 15px;
+		text-align: center;
+		font-size: 35px;
+		font-weight: 900;
+		font-family: 'Josefin Sans', sans-serif;
+		color: white;
+	}
+
 	.info-cliente2 span{
 		padding-top: 15px;
 		text-align: center;
@@ -310,7 +420,7 @@ color: white;
 		color: white;
 		background-color: rgb(39, 39, 39);
 		padding-bottom: 10px;
-		margin-top: 60px;
+		margin-top: 42px;
 	
 	}
 	.info-cliente2{
